@@ -1,0 +1,165 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+#side1{
+    color: white;
+    background-image: url("plant.jpeg");
+    background-size: cover;
+    background-blend-mode: multiply; 
+}
+
+#main1{
+    display: flex;
+    padding: 15px;
+    margin-left: 5%;
+}
+
+#text1{
+    margin-top: 4%;
+    padding-left: 35px;
+}
+
+img{
+    width: 10rem;
+}
+
+#line1{
+    width: 80%;
+    margin-left: 40px;
+}
+
+#main2{
+    display: flex;
+    padding: 15px;
+    margin-left: 5%;
+}
+
+.login{
+    margin-right:22%;
+}
+
+#selected{
+    border-radius: 20px;
+    width: 100%;
+    padding: 6px;
+    color: white;
+    background-color: orange;
+    margin-left: 35px;
+    outline: none;
+}
+
+.line2{
+    border: 3px solid orange;
+    color: orange;
+    width: 30%;
+    height: 2px;
+
+}
+
+.main3{
+    display: flex;
+    justify-content: space-around;
+}
+
+.main3 a{
+    color: orange;
+    text-decoration: none;
+}
+
+ a:hover{
+   text-decoration: underline;
+}
+
+.p1{
+    margin-right: 47%;  
+}
+
+.p2{
+    margin-right: 76%;  
+}
+
+input{
+    outline: none;
+    width: 90%;
+    height: 4.5vh;
+    background: transparent;
+    border-radius: 0.5vh;
+    margin-right: 10%;
+    margin-left:5%;
+}
+
+input:focus{
+    border: 1px solid orange;
+}
+
+.password{
+    margin-right: 75%;
+}
+
+.email{
+    margin-right: 70%; 
+}
+
+.label1{
+    padding: 10px;
+}
+
+.label2{
+    padding: 10px;
+}
+
+.submit{
+    width: 15%;
+    padding: 5px;
+    border-radius: 0.5vh;
+    background-color: orange;
+    color: white;
+    margin-top: 2%;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+#side2{
+    margin-top: 2.2%;
+}
+
+.main-header{
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 100%;
+}
+
+#panelsStayOpen-collapseOne{
+   display: flex;
+    
+}
+
+#panelsStayOpen-collapseTwo{
+    display: flex;
+}
+
+#panelsStayOpen-collapseThree{
+    display: flex;
+}
+
+.accordion-body{
+    border: 1px solid black;
+    border-radius: 1vh;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 30%;
+    height: 10%;
+}
+
+.accordion-body:hover{
+    border: 1.5px solid green;
+}
+
+#otisp{
+    margin-left: 50px;
+}

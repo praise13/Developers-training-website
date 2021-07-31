@@ -1,0 +1,71 @@
+h1{
+    color:cornflowerblue
+}
+
+p{
+    color: black
+}
+body{
+    background-color: #ffffff;
+}
+
+
+    
+
+.header{
+    color: white;
+    
+    
+}
+
+    
+
+.main{
+    background-color: blue
+}
+.form{
+    color: black
+
+}
+
+.table, th, td{
+    color: blue;
+    background-color: cornsilk;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+@media (min-width: 601px) and (max-width: 767px){
+    body{
+        color: white
+    }
+}
+
+@media (min-width: 600px) and (max-width: 757px){
+    form{
+        color: blanchedalmond;
+        background-color: crimson;
+    }
+}
+
+@media (min-width: 767px) {
+    body{
+        color: rgb(255, 71, 71);
+    }
+}
+@media (min-width: 768px) {
+    img{
+        inline-size: 10rem;
+    }
+}
+@media (min-width: 601px) and (max-width: 767px) {
+    form{
+        font-size: 20rem;
+    }
+}
+
+
+
+
+
+
